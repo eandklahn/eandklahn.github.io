@@ -41,10 +41,6 @@ a:active {text-decoration: none;}
 	width: 100px;
 	}
 
-.about-text {
-	text-align: center;
-}
-
 /*Inspiration for this solution found at https://stackoverflow.com/questions/18521152/how-to-set-two-different-font-sizes-in-the-same-p*/
 p#comment-p {
     font-size: 10;

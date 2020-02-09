@@ -1,6 +1,15 @@
+:root {
+	--navbar-bg-color: #F0F8FF;
+	--navbar-border-color: black;
+}
 
 
 h1 {
+    color: black;
+    font-family: verdana;
+}
+
+p {
     color: black;
     font-family: verdana;
 }
@@ -16,3 +25,31 @@ a:link {text-decoration: none;}
 a:hover {text-decoration: none;}
 a:visited {text-decoration: none;}
 a:active {text-decoration: none;}
+
+/* table styling */
+
+.table_sitepages, .td_sitepages {
+    border: transparent;
+    border-spacing: 5px
+}
+
+.td_sitepages {
+	text-align: center;
+    padding: 15px 10px 15px 10px;
+	border-radius: 5px;
+	background-color: var(--navbar-bg-color);
+	width: 100px;
+	}
+
+.about-text {
+	text-align: center;
+}
+
+/*Inspiration for this solution found at https://stackoverflow.com/questions/18521152/how-to-set-two-different-font-sizes-in-the-same-p*/
+p#comment-p {
+    font-size: 10;
+}
+
+img#spharms-img {
+	width: 60%;
+}

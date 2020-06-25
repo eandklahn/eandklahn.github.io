@@ -1,6 +1,7 @@
 :root {
 	--navbar-bg-color: #F0F8FF;
 	--navbar-border-color: black;
+	--center-padding: 3%;
 }
 
 
@@ -26,6 +27,12 @@ a:hover {text-decoration: none;}
 a:visited {text-decoration: none;}
 a:active {text-decoration: none;}
 
+a.touch:link {text-decoration: underline;}
+a.touch {
+	color: black;
+}
+
+
 /* table styling */
 
 .table_sitepages, .td_sitepages {
@@ -48,4 +55,28 @@ p#comment-p {
 
 img#spharms-img {
 	width: 60%;
+}
+
+p.right {
+	float: right;
+	clear: both;
+	text-align: right;
+	width: 30%;
+	padding-right: var(--center-padding);
+}
+
+img.pers-image {
+	clear: both;
+	padding-left: var(--center-padding);
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }

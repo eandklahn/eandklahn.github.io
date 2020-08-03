@@ -2,23 +2,24 @@
 	--navbar-bg-color: #F0F8FF;
 	--navbar-border-color: black;
 	--center-padding: 3%;
+	--font-for-all: arial;
 }
 
 
 h1, h2 {
     color: black;
-    font-family: verdana;
+    font-family: var(--font-for-all);
 }
 
 p {
     color: black;
-    font-family: verdana;
+    font-family: var(--font-for-all);
 }
 
 
 /* link styling */
 a {
-    font-family: verdana;
+    font-family: var(--font-for-all);
     display: inline-block;
 }
 
@@ -68,6 +69,7 @@ p.right {
 img.pers-image {
 	clear: both;
 	padding-left: var(--center-padding);
+	width: 20%;
 }
 
 .column {
